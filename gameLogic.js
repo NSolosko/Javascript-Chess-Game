@@ -8,7 +8,7 @@ Vanilla Javascript Chess Game
 exist on the board at any given time. Excess pieces are hidden from view until needed.*/
 
 var blackBishop1 = document.createElement("img")
-blackBishop1.src = "./Chess Pieces/blackBishop.png"
+blackBishop1.src = "/Chess Pieces/blackBishop.png"
 blackBishop1.setAttribute("id","blackBishop1");
 var blackBishop2 = document.createElement("img")
 blackBishop2.src = "./Chess Pieces/blackBishop.png"
@@ -44,7 +44,7 @@ var blackRook1 = document.createElement("img")
 blackRook1.src = "./Chess Pieces/blackRook.png"
 blackRook1.setAttribute("id","blackRook1");
 var blackRook2 = document.createElement("img")
-blackRook2.src = "./Chess Pieces/blackRook.png"
+blackRook2.src = "/Chess Pieces/blackRook.png"
 blackRook2.setAttribute("id","blackRook2");
 var blackRook3 = document.createElement("img")
 blackRook3.src = "./Chess Pieces/blackRook.png"
