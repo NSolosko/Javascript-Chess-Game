@@ -41,7 +41,7 @@ var blackBishop11 = document.createElement("img")
 blackBishop11.src = "/chess pieces/blackBishop.png"
 blackBishop11.setAttribute("id","blackBishop11");
 var blackRook1 = document.createElement("img")
-blackRook1.src = "/chess pieces/blackRook.png"
+blackRook1.src = "chess pieces/blackRook.png"
 blackRook1.setAttribute("id","blackRook1");
 var blackRook2 = document.createElement("img")
 blackRook2.src = "/chess pieces/blackRook.png"
