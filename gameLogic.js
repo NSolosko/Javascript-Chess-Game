@@ -494,6 +494,21 @@ document.addEventListener("click",function(event){
 								moveArray.push("blackRook2");
 								moveArray.push("none");
 							}
+							else{
+								if (pieceArray.includes(event.target)){
+									moveArray.push(selectedTile.id);
+									moveArray.push(document.getElementById(selectedTile.id).firstChild.id);
+									moveArray.push(event.target.parentElement.id);
+									moveArray.push(event.target.id);
+								}
+								else{
+									moveArray.push(selectedTile.id);
+									moveArray.push(event.target.firstChild.id);
+									moveArray.push(event.target.id);
+									moveArray.push("none");
+									moveArray.push("none");
+								}	
+							}
 						}
 						else{
 							if(document.getElementById("c1").style.backgroundColor == "blue" && event.target.id == "c1"){
@@ -517,6 +532,21 @@ document.addEventListener("click",function(event){
 								moveArray.push("h1");
 								moveArray.push("whiteRook2");
 								moveArray.push("none");
+							}
+							else{
+								if (pieceArray.includes(event.target)){
+									moveArray.push(selectedTile.id);
+									moveArray.push(document.getElementById(selectedTile.id).firstChild.id);
+									moveArray.push(event.target.parentElement.id);
+									moveArray.push(event.target.id);
+								}
+								else{
+									moveArray.push(selectedTile.id);
+									moveArray.push(event.target.firstChild.id);
+									moveArray.push(event.target.id);
+									moveArray.push("none");
+									moveArray.push("none");
+								}	
 							}
 						}
 					}
